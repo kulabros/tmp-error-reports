@@ -1,0 +1,11 @@
+Uncaught Exception:
+Error: ENOENT: no such file or directory, open 'Untitled-1.json'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:173:20)
+    at Object.fs.readFileSync (fs.js:508:33)
+    at Object.fs.readFileSync (ELECTRON_ASAR.js:506:29)
+    at new l (/Library/Application Support/Adobe/CEP/extensions/com.jibo.PixiAnimate/publish/index.js:8:6999)
+    at App.<anonymous> (/Library/Application Support/Adobe/CEP/extensions/com.jibo.PixiAnimate/publish/index.js:10:2282)
+    at emitTwo (events.js:111:20)
+    at App.emit (events.js:191:7)
